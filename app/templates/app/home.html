@@ -1,0 +1,18 @@
+{% extends 'app/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+<br><br><br>
+    <div class="me"> <img src="{% static 'images/Toquero.png' %}" alt="Your Image" /></div>
+<br><br><br><br><br><br>
+<h1>Gene Mark A. Toquero</h1>
+<br>
+<div class="home">
+    <img src="{% static 'images/GenePROFILE.jpg' %}" alt="Your Image" /> <p>I am Gene Mark A. Toquero, and this is my first Django website about myself.</p>
+    <a href="{% url 'about' %}">See More About Me</a>
+</div>
+<br><br><br><br><br><br>
+{% endblock content %}

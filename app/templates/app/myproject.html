@@ -1,0 +1,39 @@
+{% extends 'app/base.html' %}
+{% load static %}
+
+{% block content %}
+  <table>
+    <thead>
+        <tr>
+            <th>Project</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img src="{% static 'images/CurrencyProject.png' %}" alt="Project 1"></td>
+            <td>Currency Converter Project JAVA</td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/ResJava.jpg' %}" alt="Project 2"></td>
+            <td>JAVA Ordering System</td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/WEB1.png' %}" alt="Project 3"></td>
+            <td>HTML and CSS  Web</td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/WEB4schedule.png' %}" alt="Project 4"></td>
+            <td>HTML and CSS My Schedule </td>
+        </tr>
+         <tr>
+            <td><img src="{% static 'images/WEBpractice.png' %}" alt="Project 5"></td>
+            <td>My Practice Website in Wix </td>
+        </tr>
+        <tr>
+            <td><img src="{% static 'images/Art.jpg' %}" alt="Project 6"></td>
+            <td>Digital Art</td>
+        </tr>
+    </tbody>
+</table>
+{% endblock content %}

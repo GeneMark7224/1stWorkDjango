@@ -1,0 +1,19 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gene</title>
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <script src="{% static 'js/base.js' %}" defer></script>
+    <link rel="icon" href="{% static 'images/Toquero.png' %}" type="image/x-icon">
+</head>
+{% include 'app/navbar.html'%}
+<body>
+
+
+{% block content %}
+{% endblock content %}
+</body>
+</html>
